@@ -5,7 +5,7 @@ jobs:
   test_project:
     run-on: ubuntu-latest
     steps:
-    - users: actions/checkout@v2
+    - uses: actions/checkout@v2
     - name: Run Django unit tests
       run: |
       pip install --user django
